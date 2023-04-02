@@ -1,0 +1,95 @@
+/* Add some padding and margins to create white space */
+form {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 400px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+
+/* Style the heading */
+h3 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+/* Style the form labels */
+label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Style the input fields */
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 18px;
+}
+
+/* Add some styles to the submit button */
+button[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type=submit]:hover {
+    background-color: #3e8e41;
+}
+
+/* Add styles for the sign up and forgot password buttons */
+.btn-primary {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #d1002b;
+}
+
+.btn-primary:hover {
+    background-color: #b30027;
+}
+
+.btn-red {
+    background-color: red;
+}
+
+/* Add some styles for the navbar */
+
+nav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar {
+    margin-bottom: 30px;
+}
+
+.nav-link {
+    color: rgb(0, 38, 255);
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    color: #b80000;
+}
